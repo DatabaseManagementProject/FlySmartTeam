@@ -26,6 +26,7 @@ public class UserDao {
 		return instance;
 	}
 	
+	
 	//////////////////////////////////////////////////////////////
 	
 	public User create(User user) throws SQLException {

@@ -82,7 +82,7 @@ public class Login extends HttpServlet {
 	        		req.setAttribute("user", user);
 	        		//remember this user in this session
 	        		req.getSession().setAttribute("user", user);
-	                req.getRequestDispatcher("/FindCities.jsp").forward(req, resp);
+	                req.getRequestDispatcher("/profile.jsp").forward(req, resp);
 	        	}
 	        	else
 	        	{
