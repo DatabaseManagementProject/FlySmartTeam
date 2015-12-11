@@ -1,4 +1,4 @@
-
+FlySmart/build
 
 .metadata
 
@@ -56,10 +56,6 @@
 
 *.mark
 
-FlySmart/.classpath
-
-FlySmart/.classpath
-
 Servers/.project
 
 *.policy
@@ -70,10 +66,16 @@ RemoteSystemsTempFiles/.project
 
 FlySmart/.classpath
 
+FlySmart/src/.DS_Store
+
 FlySmart/WebContent/.DS_Store
 
-FlySmart/src/.DS_Store
+FlySmart/build/classes/flight/.DS_Store
 
-FlySmart/src/.DS_Store
+*.class
 
-FlySmart/src/.DS_Store
+*.class
+
+*.class
+
+*.class
