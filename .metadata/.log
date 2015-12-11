@@ -134,19 +134,3 @@ org.eclipse.core.runtime.CoreException: Could not load the Tomcat server configu
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 !SUBENTRY 1 org.eclipse.jst.server.tomcat.core 2 0 2015-12-10 17:50:30.633
 !MESSAGE Could not load the Tomcat server configuration at /Servers/Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-10 18:01:39.951
-!MESSAGE Could not load the Tomcat server configuration at /Servers/Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Could not load the Tomcat server configuration at /Servers/Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
-	at org.eclipse.jst.server.tomcat.core.internal.Tomcat80Configuration.load(Tomcat80Configuration.java:313)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:126)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 2 0 2015-12-10 18:01:39.951
-!MESSAGE Could not load the Tomcat server configuration at /Servers/Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
