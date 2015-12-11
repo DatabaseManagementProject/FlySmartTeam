@@ -9,4 +9,26 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+
+   <!--
+  <servlet>
+    <servlet-name>FindCities</servlet-name>
+    <servlet-class>flight.servlet.FindCities</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindCities</servlet-name>
+    <url-pattern>/findcities</url-pattern>
+  </servlet-mapping>
+  -->
+  <!--
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>flight.servlet.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  --> 
+
 </web-app>
