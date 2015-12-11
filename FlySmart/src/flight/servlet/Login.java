@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import flight.dal.UsersDao;
+import flight.dal.UserDao;
 import flight.model.User;
 
 /**
@@ -27,7 +27,7 @@ public class Login extends HttpServlet {
 	 * 
 	 */
 	private static final long serialVersionUID = 2650268553764414512L;
-	protected UsersDao userDao;
+	protected UserDao userDao;
 	
 	@Override
 	public void init() throws ServletException {
