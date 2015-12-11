@@ -15,9 +15,6 @@ import flight.model.Airport;
  *
  */
 public class AirportDao 
-
-
-
 {
 	protected ConnectionManager connectionManager;
 	

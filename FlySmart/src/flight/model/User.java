@@ -1,4 +1,5 @@
-package flight.model;
+package flight.model; 
+
 
 public class User {
 	
@@ -18,6 +19,12 @@ public class User {
     	this.Password = _password;
     	this.Email = _email;
     	this.Phone = _phone;
+    }
+    
+    public User(String _username){
+
+    	this.UserName = _username;
+
     }
 
 	public String getUserName(){
